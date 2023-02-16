@@ -14,7 +14,9 @@
 h2 {
   font-size: medium;
   font-weight: 200;
+  
 }
+
 /* END SETUP */
 
 /* Classes that you might find useful */
@@ -60,10 +62,17 @@ h2 {
 
 /* QUESTION 1 */
 
+.red {
+  background-color: red;
+}
+
+#white {
+  background-color: white;
+}
+
 .orange {
   background-color: orange;
 }
-
 .yellow {
   background-color: yellow;
 }
@@ -76,7 +85,7 @@ h2 {
   background-color: blue;
 }
 
-.lightblue {
+.light-blue {
   background-color: lightblue;
 }
 
@@ -97,19 +106,19 @@ h2 {
 .thailand-red {
   /* TODO */
   background-color: #B5002D;
-  height: 16.66%;
+  height: 17.5%;
 }
 
 .thailand-white {
   /* TODO */
   background-color: #fff;
-  height: 16.66%;
+  height: 17.5%;
 }
 
 .thailand-blue {
   /* TODO */
-  background-color: 2E2A4C;
-  height: 33.32%;
+  background-color: #2E2A4C;
+  height:30%;
 }
 
 /* END QUESTION 2 */
@@ -118,14 +127,19 @@ h2 {
 
 .romania-blue {
   background-color: #002c84;
+  width: 33.3%;
+  
 }
 
 .romania-yellow {
   background-color: #ffcf00;
+  width: 33.3%;
 }
+
 
 .romania-red {
   background-color: #e10017;
+  width: 33.3%;
 }
 
 /* END QUESTION 3 */
@@ -133,21 +147,24 @@ h2 {
 /* QUESTION 4 */
 .mexico-green {
   background-color: #006341;
+  width:33.3%;
 }
 
-.mexico-img {
-  /* TODO */
-  align-self: center;
-  max-width: 50%;
-  max-height: 51%;
+
+img {
+  width: 33.3%;
+  background-color: white;
+  max-height: 120px;
+  /* max-width: 100px; */
+  align-self:center;
 }
+
+
 
 .mexico-red {
   background-color: #ce1126;
-}
-
-.label {
-  color: rgb(124, 124, 192);
+  width:33.3%;
+  
 }
 
 /* QUESTION 6 */
@@ -163,13 +180,22 @@ h2 {
 /* For margin practice */
 .flag1 {
   background-color: red;
+  /* margin-right: 5px; */
   /* TODO */
-  margin-left: 5px;
+  height: 300px;
+  width: 500px;
+  border-style: solid;
+  margin-right: 5px;
+  /* padding-inline-start: 60px; */
 }
 
 .flag2 {
   background-color: blue;
   /* TODO */
+  /* margin-left: 5px; */
+  height: 300px;
+  width: 500px;
+  border-style: solid;
   margin-left: 5px;
 }
 /* For padding practice */
@@ -178,8 +204,13 @@ h2 {
   background-color: lightblue;
   background-clip: content-box, padding-box;
   /* TODO */
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.label:hover{
+  font-size: large;
+  color: red;
 }
